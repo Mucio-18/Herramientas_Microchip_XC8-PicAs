@@ -5,7 +5,7 @@ messg "Biblioteca delay de www.mgv3d.com"
 messg "Usando cristal de 4MHz"
 
 ; Declaración de funciones y variables externas
-EXTRN DELAY_COUNTERL,DELAY_COUNTERH,delay_8bit,delay_16bit
+GLOBAL DELAY_COUNTERL,DELAY_COUNTERH,delay_8bit,delay_16bit
 
 ; Macro de interfaz
 delay_ms MACRO valor

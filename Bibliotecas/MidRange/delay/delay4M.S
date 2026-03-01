@@ -1,4 +1,5 @@
 #include <xc.inc>
+#include "delay4M.inc"
 
 GLOBAL DELAY_COUNTERL,DELAY_COUNTERH, delay_8bit, delay_16bit
 
@@ -8,7 +9,7 @@ DELAYREG2:	DS 1
 DELAY_COUNTERL:	DS 1
 DELAY_COUNTERH: DS 1
     
-psect delay,global,class=CODE,delta=2
+psect code
  
 delay_8bit:
     call delay_1ms
