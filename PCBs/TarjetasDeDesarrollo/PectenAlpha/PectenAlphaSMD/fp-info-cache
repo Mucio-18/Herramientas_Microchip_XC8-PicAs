@@ -1,4 +1,4 @@
-26571449824727316
+26573222401662975
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73813,6 +73813,13 @@ PIC_28-40
 
 0
 54
+40
+PIC_Pin_Compatible
+PXP
+
+
+0
+40
 40
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
